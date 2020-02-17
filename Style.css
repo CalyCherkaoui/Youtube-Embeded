@@ -1,7 +1,26 @@
 #topBar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+    }
+    
+/*#topBar, li {
+    display: inline;
+}*/
+
+.HorizItem{
+    float: left;
+    display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+
+}
 
 }
 
 body {
-    
+
 }
