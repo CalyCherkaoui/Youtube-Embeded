@@ -41,7 +41,7 @@ section {
   padding: 10px;
 }
 
-aside {
+.video-description {
   display: grid;
   grid-template-columns: auto auto;
   padding: 10px;
