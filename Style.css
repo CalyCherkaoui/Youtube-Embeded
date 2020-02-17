@@ -52,3 +52,11 @@ aside {
   grid-template-columns: auto auto;
   padding: 10px;
 }
+
+.video-recommendation {
+  margin-right: 10rem;
+}
+
+.video-player {
+  margin-left: 10rem;
+}
