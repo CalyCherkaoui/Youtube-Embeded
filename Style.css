@@ -5,6 +5,9 @@
     display: grid;
     grid-template-columns: auto auto auto;
     text-align: center;
+    
+    width: auto;
+    
     }
 
 /*#topBar, li {
@@ -21,11 +24,11 @@ iframe{
   margin-top: 5%;
 }
 
-nav {
-  display: grid;
-  grid-template-columns: auto auto auto;
-  padding: 10px;
-
+.nav {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  background-color: white;
 }
 
 body {
@@ -60,3 +63,4 @@ section {
 .video-player {
   margin-left: 10rem;
 }
+
