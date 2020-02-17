@@ -2,25 +2,53 @@
     list-style-type: none;
     margin: 0;
     padding: 0;
-
+    display: grid;
+    grid-template-columns: auto auto auto;
+    text-align: center;
     }
-    
+
 /*#topBar, li {
     display: inline;
 }*/
 
 .HorizItem{
-    float: left;
-    display: block;
-  color: black;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
+  padding: 20px;
+text-align: center;
 
 }
+
+iframe{
+  margin-top: 5%;
+}
+
+nav {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
 
 }
 
 body {
+  display: grid;
+    grid-template-rows: auto;
+    grid-gap: 10px;
+    padding: 10px;
+}
 
+section {
+  display: grid;
+  grid-template-columns: auto auto;
+  padding: 10px;
+}
+
+aside {
+  display: grid;
+  grid-template-columns: auto auto;
+  padding: 10px;
+}
+
+.smallgrid {
+  display: grid;
+  grid-template-columns: auto auto;
+  padding: 10px;
 }
