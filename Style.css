@@ -157,9 +157,20 @@ section {
 .videoViews {
   display: grid;
   grid-template-columns: auto auto;
+  color: grey;
+  font-size: 0.8rem;
 }
 
 .videoData, .videoLikes {
   display: grid;
   grid-template-rows: auto auto;
+}
+
+#likeSection {
+  color: grey;
+  font-size: 0.8rem;
+}
+
+.videoTitle{
+  color: black;
 }
