@@ -1,3 +1,46 @@
+/* Styling Youtube-clone page Isaac/Houda */
+
+/* ---------------------------------Styling main grid container ------------------------------------*/
+
+body {
+  display: grid;
+    grid-template-rows: auto;
+    grid-gap: 10px;
+    padding: 10px;
+}
+
+/*styling the icons in all sections*/
+
+.icons {
+  font-size: 25px;
+  width: 100%;
+  margin: 0em;
+  padding: 1em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+
+}
+
+
+/* ---------------------------------Styling Navigation Bar at the top ------------------------------------*/
+
+.text-holder {
+  width: 300px;
+}
+
+
+
+/* To resize the Reserche box for desktop displaying */
+@media (min-width: 900px) {
+  .text-holder {
+    width: 500px;
+  
+  }
+  }
+
+/* Flex container for the top navigation bar*/
 #topBar {
     list-style-type: none;
     margin: 0;
@@ -8,11 +51,15 @@
     flex-direction: row;
     align-items: center;
     }
+/* Fixing the navigation bar in the top */
+    .nav {
+      width: 100%;
+      position: fixed;
+      top: 0;
+      background-color: white;
+      } 
 
-/*#topBar, li {
-    display: inline;
-}*/
-
+/* Flex items for the top navigation bar*/
 #flex1 {
   background-color: white;
   order: 1;
@@ -29,30 +76,14 @@
   box-sizing: border-box;
 }
 
-
-.HorizItem{
-  padding: 20px;
-text-align: center;
-
+/* Flex container for the icons in the navBar*/
+.smallgrid {
+  display: flex;
+    width: 100%;
 }
 
-iframe{
-  margin-top: 5%;
-}
+/*------------------------------------ The videos grid container--------------------------------------------------------*/
 
-.nav {
-  width: 100%;
-  position: fixed;
-  top: 0;
-  background-color: white;
-}
-
-body {
-  display: grid;
-    grid-template-rows: auto;
-    grid-gap: 10px;
-    padding: 10px;
-}
 
 section {
   display: grid;
@@ -60,21 +91,10 @@ section {
   padding: 10px;
 }
 
-.video-description {
-  display: grid;
-  grid-template-columns: auto auto auto;
-  padding: 10px;<i class="fa fa-youtube-play" style="font-size:48px;color:red"></i>
-}
+/* Styling the embeded video*/
 
-.smallgrid {
-  display: flex;
-    width: 100%;
-}
-
-.video-recommendation {
-  margin-right: 10rem;
+iframe{
   margin-top: 5%;
-
 }
 
 .videoSection {
@@ -82,77 +102,35 @@ section {
 }
 
 
-
-.thumbnail {
- width : 100%;
-
-
-
-}
-
-.badge{
-  width: 10px;
-  height: auto;
-}
-
-.videoList{
-  list-style-type: none;
-}
-
-#subscriptionButton {
-  background-color:#FF0000 ;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 16px;
-  color: white;
-  font-weight: bold;
-  border: none;
-  padding: 10px 20px;
-
-}
-
-#linkButton {
-
-  color: white;
-  text-decoration: none;
-
-
-}
-
-.logo {
- width: 100%;
-
-}
-
-.logo-avatar {
-  width: 50px;
-  height: 50px;
-   border-radius: 50%;
-   margin-right: 2rem;
-}
-
-.text-holder {
-  width: 300px;
-}
-
-@media (min-width: 900px) {
-.text-holder {
-  width: 500px;
-
-}
+/* Styling the video description and all data about the video*/
+.video-description {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;<i class="fa fa-youtube-play" style="font-size:48px;color:red"></i>
 }
 
 
-.icons {
-  font-size: 25px;
-  width: 100%;
-  margin: 0em;
-  padding: 1em;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  box-sizing: border-box;
 
-}
+ 
+ #subscriptionButton {
+   background-color:#FF0000 ;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 16px;
+   color: white;
+   font-weight: bold;
+   border: none;
+   padding: 10px 20px;
+ 
+ }
+ 
+
+ .logo-avatar {
+   width: 50px;
+   height: 50px;
+    border-radius: 50%;
+    margin-right: 2rem;
+ }
+
 
 .videoViews {
   display: grid;
@@ -175,9 +153,52 @@ section {
 
 .videoShare {
   color: gray;
+  box-sizing: border-box;
+  margin: 0em;
 }
 
-.likeSection {
-  display: flex;
-  justify-content: space-around;
+.descriptive{
+  color: grey;
+
 }
+.channelName {
+  color: black;
+
+}
+
+
+/* Styling Recommended videos section*/
+
+.video-recommendation {
+  margin-right: 10rem;
+  margin-top: 5%;
+
+}
+
+.thumbnail {
+  width : 100%;
+ 
+ }
+ 
+ .badge{
+   width: 10px;
+   height: auto;
+ }
+ 
+ .videoList{
+   list-style-type: none;
+ }
+
+ #linkButton {
+ 
+  color: white;
+  text-decoration: none;
+
+
+}
+
+.logo {
+  width: 100%;
+ 
+ }
+ 
