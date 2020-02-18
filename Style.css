@@ -16,6 +16,7 @@
 #flex1 {
   background-color: blue;
   order: 1;
+    width: 10%;
 }
 #flex2 {
   background-color: blue;
@@ -24,6 +25,7 @@
 #flex3 {
   background-color: blue;
   order: 3;
+  width: 12%;
 }
 
 .HorizItem{
@@ -64,9 +66,7 @@ section {
 
 .smallgrid {
   display: flex;
-padding: 10px;
-  margin-right: 3rem;
-    width: 50%;
+    width: 100%;
 }
 
 .video-recommendation {
@@ -117,16 +117,25 @@ padding: 10px;
 }
 
 .logo {
-  width : 25px;
-  height: 15px;
-  margin-top: 0.5 rem;
-  margin-left: 10 rem;
-  
+ width: 100%;
+
+}
+
+.text-holder {
+  width: 300px;
+}
+
+@media (min-width: 900px) {
+.text-holder {
+  width: 500px;
+
+}
 }
 
 
 .icons {
   font-size: 25px;
-  padding: 10px 10px;
-  justify-content: space-between;
+    padding: 10px 10px;
+    display: flex;
+    justify-content: space-between;
 }
