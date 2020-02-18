@@ -29,6 +29,7 @@
   box-sizing: border-box;
 }
 
+
 .HorizItem{
   padding: 20px;
 text-align: center;
@@ -143,12 +144,5 @@ section {
   justify-content: space-between;
   align-items: center;
   box-sizing: border-box;
-
-
-@media (min-width: 100px) {
-    .fa-video .fa-bell .fa-user-circle {
-      visibility: hidden;
-
-    }
 
 }
