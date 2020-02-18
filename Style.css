@@ -14,18 +14,20 @@
 }*/
 
 #flex1 {
-  background-color: blue;
+  background-color: white;
   order: 1;
     width: 10%;
 }
 #flex2 {
-  background-color: blue;
+  background-color:white;
   order: 2;
 }
 #flex3 {
-  background-color: blue;
+  background-color: white;
   order: 3;
   width: 12%;
+  box-sizing: border-box;
+
 }
 
 .HorizItem{
@@ -135,7 +137,21 @@ section {
 
 .icons {
   font-size: 25px;
-    padding: 10px 10px;
-    display: flex;
-    justify-content: space-between;
+  width: 100%;
+  margin: 0em;
+  padding: 1em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+
+
+}
+
+@media (min-width: 100px) {
+    .fa-video .fa-bell .fa-user-circle {
+      visibility: hidden;
+
+    }
+
 }
