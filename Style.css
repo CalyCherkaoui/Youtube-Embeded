@@ -4,11 +4,27 @@
     padding: 0;
     display: flex;
     justify-content: space-between;
+    flex-grow: 2;
+    flex-direction: row;
+    align-items: center;
     }
 
 /*#topBar, li {
     display: inline;
 }*/
+
+#flex1 {
+  background-color: blue;
+  order: 1;
+}
+#flex2 {
+  background-color: blue;
+  order: 2;
+}
+#flex3 {
+  background-color: blue;
+  order: 3;
+}
 
 .HorizItem{
   padding: 20px;
@@ -101,15 +117,16 @@ padding: 10px;
 }
 
 .logo {
-  width : 24%;
-  margin-top: 0.5rem;
-  margin-left: 10rem;
-  background: white;
+  width : 25px;
+  height: 15px;
+  margin-top: 0.5 rem;
+  margin-left: 10 rem;
+  
 }
 
 
 .icons {
   font-size: 25px;
   padding: 10px 10px;
-  margin-right: 12rem;
+  justify-content: space-between;
 }
