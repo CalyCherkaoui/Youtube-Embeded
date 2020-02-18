@@ -5,7 +5,6 @@
 body {
   display: grid;
     grid-template-rows: auto;
-    grid-gap: 10px;
     padding: 10px;
 }
 
@@ -14,7 +13,7 @@ body {
 .icons {
   font-size: 25px;
   width: 100%;
-  margin: 0em;
+  margin: 0;
   padding: 1em;
   display: flex;
   justify-content: space-between;
@@ -106,7 +105,7 @@ iframe{
 .video-description {
   display: grid;
   grid-template-columns: auto auto auto;
-  padding: 10px;<i class="fa fa-youtube-play" style="font-size:48px;color:red"></i>
+  padding: 10px;
 }
 
 
@@ -143,7 +142,7 @@ iframe{
 }
 
 .videoLikes {
-  justify-content: right;
+  justify-content: flex-end;
 }
 
 .videoTitle {
@@ -154,7 +153,7 @@ iframe{
 .videoShare {
   color: gray;
   box-sizing: border-box;
-  margin: 0em;
+  margin: 0;
 }
 
 .descriptive{
