@@ -62,7 +62,7 @@ section {
 
 .video-description {
   display: grid;
-  grid-template-columns: auto auto;
+  grid-template-columns: auto auto auto;
   padding: 10px;<i class="fa fa-youtube-play" style="font-size:48px;color:red"></i>
 }
 
@@ -123,6 +123,13 @@ section {
 
 }
 
+.logo-avatar {
+  width: 50px;
+  height: 50px;
+   border-radius: 50%;
+   margin-right: 2rem;
+}
+
 .text-holder {
   width: 300px;
 }
@@ -145,4 +152,14 @@ section {
   align-items: center;
   box-sizing: border-box;
 
+}
+
+.videoViews {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.videoData, .videoLikes {
+  display: grid;
+  grid-template-rows: auto auto;
 }
