@@ -2,12 +2,8 @@
     list-style-type: none;
     margin: 0;
     padding: 0;
-    display: grid;
-    grid-template-columns: auto auto auto;
-    
-    text-align: justify;
-    width: auto;
-    
+    display: flex;
+    justify-content: space-between;
     }
 
 /*#topBar, li {
@@ -51,15 +47,16 @@ section {
 }
 
 .smallgrid {
-  display: grid;
-  grid-template-columns: auto auto;
-  padding: 10px;
+  display: flex;
+padding: 10px;
+  margin-right: 3rem;
+    width: 50%;
 }
 
 .video-recommendation {
   margin-right: 10rem;
   margin-top: 5%;
-  
+
 }
 
 .videoSection {
@@ -92,11 +89,11 @@ section {
   font-weight: bold;
   border: none;
   padding: 10px 20px;
-  
+
 }
 
 #linkButton {
- 
+
   color: white;
   text-decoration: none;
 
@@ -104,18 +101,15 @@ section {
 }
 
 .logo {
-  width : 10%;
-  height: auto;
-  margin-left: auto;
-  margin-right: 5rem;
+  width : 24%;
+  margin-top: 0.5rem;
+  margin-left: 10rem;
+  background: white;
 }
 
-.logoIcon {
-  color: black;
-}
 
 .icons {
   font-size: 25px;
   padding: 10px 10px;
-  margin-right: auto;
+  margin-right: 12rem;
 }
