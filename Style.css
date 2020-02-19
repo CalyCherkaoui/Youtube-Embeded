@@ -113,11 +113,15 @@ section {
 
 
 .video-player {
-  margin-top: 3rem;
-  text-align: center;
-
+  height: 50%;
+  margin-top: 5%;
+  background: black;
 }
 
+iframe {
+  width: 100%;
+  height: 100%;
+}
 
 /* Styling the video description and all data about the video*/
 .video-description {
@@ -151,7 +155,7 @@ section {
 
 .videoShare>#likeSection>.thumsUpDown {
   border-bottom: solid 1px rgb(44, 43, 43);
-  
+
 }
 
 .videoShare {
@@ -166,7 +170,7 @@ margin-inline: 10px;
 }
 
 i {
-  margin-inline: 8px;
+  margin-inline: 10px;
 }
 
 /*
@@ -230,11 +234,11 @@ i {
 
 .video-recommendation {
   display: flex;
-  flex-direction: column;
-  box-sizing: border-box;
-  margin: 8px;
-  margin-top: 1rem;
-
+    flex-direction: column;
+    box-sizing: border-box;
+    margin: 8px;
+    margin-top: 1rem;
+    width: 25rem;
 }
 
 .thumbnail {
