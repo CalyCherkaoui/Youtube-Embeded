@@ -27,6 +27,10 @@ body {
 
 .text-holder {
   width: 300px;
+  border-radius: 0%;
+  border: solid 1px rgb(128,128,128, 0.6);
+  height: 2rem;
+  
 }
 
 
@@ -42,29 +46,45 @@ body {
 /* Flex container for the top navigation bar*/
 #topBar {
     list-style-type: none;
-    margin: 0;
+    margin: 0.5rem;
     padding: 0;
     display: flex;
     justify-content: space-between;
     flex-grow: 2;
     flex-direction: row;
     align-items: center;
+    height: 3rem;
+    
     }
 /* Fixing the navigation bar in the top */
     .nav {
+     
       width: 100%;
       position: fixed;
       top: 0;
-      background-color: white;
+      background-color: white;      
       }
 
 /* Flex items for the top navigation bar*/
 #flex1 {
   background-color: white;
   order: 1;
-  width: 10%;
+  width: 6rem;
+  height: 2rem;
   margin-left: 12px;
 }
+
+#flex1> img {
+  object-fit: cover;
+}
+
+#flex1>button {
+  height: 2rem;
+  border-radius: 0;
+  border-style: none;
+  background-color: rgb(128,128,128, 0.6) ;
+}
+
 #flex2 {
   background-color:white;
   order: 2;
@@ -170,7 +190,7 @@ margin-inline: 10px;
 }
 
 i {
-  margin-inline: 8px;
+  margin-inline: 10px;
 }
 
 /*
