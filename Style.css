@@ -55,6 +55,7 @@ body {
       width: 100%;
       position: fixed;
       top: 0;
+      background-color: white;
       }
 
 /* Flex items for the top navigation bar*/
@@ -80,6 +81,10 @@ body {
   background-color: rgb(128,128,128, 0.6) ;
 }
 
+.fa-align-justify {
+  padding: 1px;
+  font-size: 25px;
+}
 #flex2 {
   background-color:white;
   order: 2;
@@ -145,7 +150,7 @@ iframe {
   padding: 10px;
 }
 
- #subscriptionButton {
+ .subscriptionButton {
    background-color:#FF0000 ;
    font-family: Arial, Helvetica, sans-serif;
    font-size: 16px;
@@ -153,6 +158,10 @@ iframe {
    font-weight: bold;
    border: none;
    padding: 10px 20px;
+ }
+
+ .subscriptionButtonStyle {
+   margin-top: 0.5rem
  }
 /*styling the like section*/
 
@@ -291,6 +300,10 @@ i {
 
 .logo {
   width: 100%;
+  padding: 1px;
+ }
+ .search-btn {
+   margin-right: auto; width: 15%;
  }
 
  .video-recommendation> .autoplay {

@@ -15,15 +15,15 @@
   <body>
 
   <!-- Navigation Bar-->
-   <nav class="nav" style="background: white;">
+   <nav class="nav">
     <ul id="topBar" >
       <li id="flex1">
-              <i class="fa fa-align-justify" style="padding: 1px; font-size: 25px;" ></i>
-              <img class="logo"src="https://www.youtube.com/about/static/svgs/icons/brand-resources/YouTube-logo-full_color_light.svg" style="padding: 1px;">
+              <i class="fa fa-align-justify"></i>
+              <img class="logo" src="https://www.youtube.com/about/static/svgs/icons/brand-resources/YouTube-logo-full_color_light.svg" alt="Youtube logo">
         </li>
       <li id="flex2">
           <div class="smallgrid">
-                <form action="look-up"><input type="text" placeholder="  Resercher" class="text-holder"></form><button type="submit" name="search"  style="margin-right: auto; width: 15%;"><i class="fa fa-search"></i></button>
+                <form action="look-up"><input type="text" placeholder="  Resercher" class="text-holder"></form><button type="submit" name="search" class="search-btn"><i class="fa fa-search"></i></button>
           </div>
       </li>
       <li id="flex3"><div class="icons"><i class='fas fa-video'></i> <i class="fa fa-align-justify" ></i> <i class='fas fa-bell' ></i> <i class='fas fa-user-circle'></i></div></li>
@@ -37,7 +37,7 @@
   <div class="videoSection">
           <!-- All data about the video including the media player -->
           <div class="video-player">
-                <iframe width="900" height="600" src="https://www.youtube.com/embed/V74l_zS1x8E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe width="900" height="600" src="https://www.youtube.com/embed/V74l_zS1x8E" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
           <!--Video Title and metaData-->
           <div class="videoViews">
@@ -54,13 +54,13 @@
                   <div class="videoShare">
                         <div id="likeSection">
                               <div class="thumsUpDown">
-                                <i class="fa fa-thumbs-up" aria-hidden="true"></i><span>399</span><i class="fa fa-thumbs-down" aria-hidden="true"></i><span>15</span>
+                                <i class="fa fa-thumbs-up" aria-hidden="true"></i><span>  399  </span><i class="fa fa-thumbs-down" aria-hidden="true"></i><span>  15  </span>
                               </div>
                               <div class="share">
-                                <i class="fa fa-share" aria-hidden="true"></i><span>SHARE</span>
+                                  <a href="https://youtu.be/V74l_zS1x8E"><i class="fa fa-share" aria-hidden="true"><span> SHARE</span></i></a>
                               </div>
                               <div class="save">
-                              <i class="fa fa-align-justify" aria-hidden="true"></i><span>SAVE</span><i class="fa fa-ellipsis-h"></i>
+                              <i class="fa fa-align-justify" aria-hidden="true"></i><span>  SAVE  </span><i class="fa fa-ellipsis-h"></i>
                               </div>
                         </div>
                   </div>
@@ -69,7 +69,7 @@
             <!-- All details about the video including subscription button -->
           <div class="video-description">
                     <div>
-                      <img class="logo-avatar" src="https://cdn.dribbble.com/users/1269297/screenshots/6946283/shot-cropped-1565208181409.png">
+                      <img class="logo-avatar" src="https://cdn.dribbble.com/users/1269297/screenshots/6946283/shot-cropped-1565208181409.png" alt="Profile Logo">
                     </div>
                     <div class="descriptive">
                       <h3 class="channelName">The Odin Project</h3>
@@ -77,8 +77,8 @@
                       <p>How do you contribute to open source?  In this video, I'll describe the easiest way to make a simple contribution to an open source project -- without using the command line, a text editor, "forking a repo", or even touching Git outside of Github.  I'll also describe what kinds of contributions open source software projects are typically looking for.  As an example, I use submitting a student solution to a web development exercise from The Odin Project, a free online curriculum for learning web development with Ruby on Rails.  You can find more information about that project at http://theodinproject.com.</p>
                       <h4 class="channelName">Category <a href="https://www.youtube.com/channel/UCiDF_uaU1V00dAc8ddKvNxA">Science & Technology</a></h4>
                     </div>
-                    <div>
-                    <button id="subscriptionButton" ><a id="linkButton" href="https://www.youtube.com/channel/UCk0b0VTnJxXbxupXJ4D2yjQ?sub_confirmation=1">SUBSCRIBE</a></button>
+                    <div class="subscriptionButtonStyle">
+                    <a id="linkButton" href="https://www.youtube.com/channel/UCk0b0VTnJxXbxupXJ4D2yjQ?sub_confirmation=1" class="subscriptionButton">SUBSCRIBE</a>
                     </div>
           </div>
   </div>
@@ -94,41 +94,39 @@
           <ul class="videoList">
             <li class="recommendationVid" >
                 <a target="_blank" href="https://www.youtube.com/watch?v=73I5dRucCds">
-                  <img class="thumbnail " src="https://miro.medium.com/max/2732/1*qwFrTMnFkcd3U9rFKwwacw.png">
+                  <img class="thumbnail " src="https://miro.medium.com/max/2732/1*qwFrTMnFkcd3U9rFKwwacw.png" alt="first_video">
                 </a>
                 <h3>How to Get Started with Github - Beginner Tutorial</h3>
-                <h4>MicrowaveSam <img class="badge" src="https://mwmstudioz.com/wp-content/uploads/2017/08/icontick-300x300.png" ></h4>
+                <h4>MicrowaveSam <img class="badge" src="https://mwmstudioz.com/wp-content/uploads/2017/08/icontick-300x300.png" alt="badge1"></h4>
                 <h4>596k subscribers</h4>
             </li>
-            <div style="border-bottom: solid 1px #8a8a8a; margin-top: 5px; margin-bottom: 5px;"></div>
+            <li class="recommendationVid" style="border-bottom: solid 1px #8a8a8a; margin-top: 5px; margin-bottom: 5px;"></li>
             <li class="recommendationVid">
               <a target="_blank" href="https://www.youtube.com/watch?v=xuB1Id2Wxak">
-                <img class="thumbnail" src="http://www.bossable.com/wp-content/uploads/2014/07/Github.jpg" >
+                <img class="thumbnail" src="http://www.bossable.com/wp-content/uploads/2014/07/Github.jpg" alt="second_video">
               </a>
               <h3>What is Git | What is GitHub | Git Tutorial | GitHub Tutorial | Devops Tutorial | Edureka</h3>
-              <h4>edureka! <img class="badge" src="https://mwmstudioz.com/wp-content/uploads/2017/08/icontick-300x300.png" ></h4>
+              <h4>edureka! <img class="badge" src="https://mwmstudioz.com/wp-content/uploads/2017/08/icontick-300x300.png" alt="badge2"></h4>
               <h4>821k subscribers</h4>
             </li>
             <li class="recommendationVid">
               <a target="_blank" href="https://www.youtube.com/watch?v=EuPSibuIKIg&t=1s">
-                <img class="thumbnail" src="https://i.udemycdn.com/course/750x422/1278360_beb4_3.jpg" >
+                <img class="thumbnail" src="https://i.udemycdn.com/course/750x422/1278360_beb4_3.jpg" alt="third_video">
               </a>
               <h3>Google Coding Interview With A Competitive Programmer</h3>
-              <h4>Clément Mihailescu <img class="badge" src="https://mwmstudioz.com/wp-content/uploads/2017/08/icontick-300x300.png" ></h4>
+              <h4>Clément Mihailescu <img class="badge" src="https://mwmstudioz.com/wp-content/uploads/2017/08/icontick-300x300.png" alt="badge3"></h4>
               <h4>104k subscribers</h4>
             </li>
             <li class="recommendationVid">
               <a target="_blank" href="https://www.youtube.com/watch?v=7iwgyzX-76g">
-                <img class="thumbnail" src="https://i.kinja-img.com/gawker-media/image/upload/c_scale,fl_progressive,q_80,w_800/il8csfv1pwgabnz2g8n0.jpg">
+                <img class="thumbnail" src="https://i.kinja-img.com/gawker-media/image/upload/c_scale,fl_progressive,q_80,w_800/il8csfv1pwgabnz2g8n0.jpg" alt="fourth_video">
               </a>
               <h3>How many Chrome tabs can you open with 2TB RAM?</h3>
-              <h4>Linus Tech Tips <img class="badge" src="https://mwmstudioz.com/wp-content/uploads/2017/08/icontick-300x300.png" ></h4>
+              <h4>Linus Tech Tips <img class="badge" src="https://mwmstudioz.com/wp-content/uploads/2017/08/icontick-300x300.png" alt="badge4"></h4>
               <h4>10.1M subscribers</h4>
             </li>
           </ul>
         </div>
-      </div>
     </section>
-
   </body>
 </html>
