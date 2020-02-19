@@ -15,13 +15,13 @@ cd Youtube-Embeded
 https://rawcdn.githack.com/CalyCherkaoui/Youtube-Embeded/2f36b8d11fe7b0907850cd48e7103b735817b590/index.html
 
 ## Authors
-👩 Houda Cherkaoui
-Twitter: https://twitter.com/Houda59579688
-Github:https://github.com/CalyCherkaoui/
+👩 **Houda Cherkaoui**
+- Twitter: https://twitter.com/Houda59579688
+- Github:https://github.com/CalyCherkaoui/
 
-👨 Isaac Gonzalez
-Twitter: https://twitter.com/idgm5
-Github:https://github.com/Ghamtre/
+👨 **Isaac Gonzalez**
+- Twitter: https://twitter.com/idgm5
+- Github:https://github.com/Ghamtre/
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
