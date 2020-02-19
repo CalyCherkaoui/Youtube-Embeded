@@ -5,7 +5,9 @@
 body {
   display: grid;
     grid-template-rows: auto;
-    padding: 10px;
+    /*padding: 10px;*/
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
 }
 
 /*styling the icons in all sections*/
@@ -84,11 +86,28 @@ body {
 /*------------------------------------ The videos grid container--------------------------------------------------------*/
 
 
+.youtube-page {
+  box-sizing: border-box;
+  margin: 12px;
+}
+
+
 section {
   display: grid;
   grid-template-columns: auto auto;
   padding: 10px;
 }
+
+/*the container of the video section*/
+
+.videoSection {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  width: 100%;
+  margin: 12px;
+}
+
 
 /* Styling the embeded video*/
 
@@ -96,9 +115,7 @@ iframe{
   margin-top: 5%;
 }
 
-.videoSection {
-  margin-left: 10rem;
-}
+
 
 
 /* Styling the video description and all data about the video*/
@@ -169,8 +186,11 @@ iframe{
 /* Styling Recommended videos section*/
 
 .video-recommendation {
-  margin-right: 10rem;
-  margin-top: 5%;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  margin: 8px;
+  margin-top: 1rem;
 
 }
 
@@ -185,6 +205,8 @@ iframe{
  }
  
  .videoList{
+   display: flex;
+   flex-direction: column;
    list-style-type: none;
  }
 
@@ -192,8 +214,27 @@ iframe{
  
   color: white;
   text-decoration: none;
+}
 
+.videoList>.recommendationVid {
 
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  border-bottom: 1px solid #8a8a8a;
+  justify-content: flex-start;
+
+}
+
+.recommendationVid> a, h3, h4 {
+  box-sizing: border-box;
+  margin: 3px;
+  width : 100%;
+}
+
+.recommendationVid> h4 {
+  color: #8a8a8a;
+  text-emphasis: none;
 }
 
 .logo {
@@ -201,3 +242,10 @@ iframe{
  
  }
  
+ .video-recommendation> .autoplay {
+   display: flex;
+   flex-direction: row;
+   align-items: baseline;
+  
+   
+ }

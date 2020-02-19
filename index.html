@@ -7,6 +7,7 @@
     <title>Contributing to Open Source Part I: The Easy Way</title>
     <link rel="stylesheet" href="Style.css">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet"> 
     <script src='https://kit.fontawesome.com/a076d05399.js'></script>
   </head>
 
@@ -29,60 +30,65 @@
 
   <!-- Main grid container for Video -->
   <div class="videoSection">
-    <!-- All data about the video including the media player -->
-    <div class="video-player">
-      <iframe width="900" height="600" src="https://www.youtube.com/embed/V74l_zS1x8E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </div>
-    <div class="videoViews">
-        <div class="videoData">
-          <div class="videoTitle">
-            <h4>Contributing to Open Source Part I:The Easy Way</h4>
+          <!-- All data about the video including the media player -->
+          <div class="video-player">
+                <iframe width="900" height="600" src="https://www.youtube.com/embed/V74l_zS1x8E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
-          <div class="videoCount">
-            <p>54,118 views • Feb 27, 2014</p>
+          <!--Video Title and metaData-->
+          <div class="videoViews">
+                <div class="videoData">
+                  <div class="videoTitle">
+                    <h4>Contributing to Open Source Part I:The Easy Way</h4>
+                  </div>
+                  <div class="videoCount">
+                    <p>54,118 views • Feb 27, 2014</p>
+                  </div>
+                </div>
+                <div class="videoLikes">
+                  <div></div>
+                  <div class="videoShare">
+                    <h4 id="likeSection"><i class="fa fa-thumbs-up" aria-hidden="true"></i>  399  <i class="fa fa-thumbs-down" aria-hidden="true"></i>  15  <i class="fa fa-share" aria-hidden="true"></i>  SHARE  <i class="fa fa-align-justify" aria-hidden="true"></i>  SAVE  <i class="fa fa-ellipsis-h"></i></h4>
+                  </div>
+                </div>
           </div>
-        </div>
-        <div class="videoLikes">
-          <div></div>
-          <div class="videoShare">
-            <h4 id="likeSection"><i class="fa fa-thumbs-up" aria-hidden="true"></i>  399  <i class="fa fa-thumbs-down" aria-hidden="true"></i>  15  <i class="fa fa-share" aria-hidden="true"></i>  SHARE  <i class="fa fa-align-justify" aria-hidden="true"></i>  SAVE  <i class="fa fa-ellipsis-h"></i></h4>
-          </div>
-        </div>
-    </div>
 
     <hr >
-    <!-- All details about the video including subscription button -->
-    <div class="video-description">
-      <div>
-        <img class="logo-avatar" src="https://cdn.dribbble.com/users/1269297/screenshots/6946283/shot-cropped-1565208181409.png">
-      </div>
-      <div class="descriptive">
-        <h3 class="channelName">The Odin Project</h3>
-        <h4>925 subscribers</h4>
-        <p>How do you contribute to open source?  In this video, I'll describe the easiest way to make a simple contribution to an open source project -- without using the command line, a text editor, "forking a repo", or even touching Git outside of Github.  I'll also describe what kinds of contributions open source software projects are typically looking for.  As an example, I use submitting a student solution to a web development exercise from The Odin Project, a free online curriculum for learning web development with Ruby on Rails.  You can find more information about that project at http://theodinproject.com.</p>
-        <h4 class="channelName">Category <a href="https://www.youtube.com/channel/UCiDF_uaU1V00dAc8ddKvNxA">Science & Technology</a></h4>
-      </div>
-      <div>
-      <button id="subscriptionButton" ><a id="linkButton" href="https://www.youtube.com/channel/UCk0b0VTnJxXbxupXJ4D2yjQ?sub_confirmation=1">SUBSCRIBE</a></button>
-      </div>
-    </div>
+            <!-- All details about the video including subscription button -->
+          <div class="video-description">
+                    <div>
+                      <img class="logo-avatar" src="https://cdn.dribbble.com/users/1269297/screenshots/6946283/shot-cropped-1565208181409.png">
+                    </div>
+                    <div class="descriptive">
+                      <h3 class="channelName">The Odin Project</h3>
+                      <h4>925 subscribers</h4>
+                      <p>How do you contribute to open source?  In this video, I'll describe the easiest way to make a simple contribution to an open source project -- without using the command line, a text editor, "forking a repo", or even touching Git outside of Github.  I'll also describe what kinds of contributions open source software projects are typically looking for.  As an example, I use submitting a student solution to a web development exercise from The Odin Project, a free online curriculum for learning web development with Ruby on Rails.  You can find more information about that project at http://theodinproject.com.</p>
+                      <h4 class="channelName">Category <a href="https://www.youtube.com/channel/UCiDF_uaU1V00dAc8ddKvNxA">Science & Technology</a></h4>
+                    </div>
+                    <div>
+                    <button id="subscriptionButton" ><a id="linkButton" href="https://www.youtube.com/channel/UCk0b0VTnJxXbxupXJ4D2yjQ?sub_confirmation=1">SUBSCRIBE</a></button>
+                    </div>
+          </div>
   </div>
 
   <!-- Main grid container for video recommendations -->
       <div class="video-recommendation">
-          <h4 style="margin-top: 2rem;">Up next</h4>
+          <div class="autoplay">
+              <h4 style="margin-top: 20%; margin-left: 12px">Up next</h4>
+              <i class="fa fa-toggle-on" style="font-size:30px;color:rgb(0, 162, 255);"></i>
+          </div>  
+        
           <!-- Complete list of recommended videos -->
           <ul class="videoList">
-            <li >
-              <a target="_blank" href="https://www.youtube.com/watch?v=73I5dRucCds">
-                <img class="thumbnail " src="https://miro.medium.com/max/2732/1*qwFrTMnFkcd3U9rFKwwacw.png">
-              </a>
-              <h3>How to Get Started with Github - Beginner Tutorial</h3>
-              <h4>MicrowaveSam <img class="badge" src="https://mwmstudioz.com/wp-content/uploads/2017/08/icontick-300x300.png" ></h4>
-              <h4>596k subscribers</h4>
+            <li class="recommendationVid" >
+                <a target="_blank" href="https://www.youtube.com/watch?v=73I5dRucCds">
+                  <img class="thumbnail " src="https://miro.medium.com/max/2732/1*qwFrTMnFkcd3U9rFKwwacw.png">
+                </a>
+                <h3>How to Get Started with Github - Beginner Tutorial</h3>
+                <h4>MicrowaveSam <img class="badge" src="https://mwmstudioz.com/wp-content/uploads/2017/08/icontick-300x300.png" ></h4>
+                <h4>596k subscribers</h4>
             </li>
-            <hr>
-            <li>
+           
+            <li class="recommendationVid">
               <a target="_blank" href="https://www.youtube.com/watch?v=xuB1Id2Wxak">
                 <img class="thumbnail" src="http://www.bossable.com/wp-content/uploads/2014/07/Github.jpg" >
               </a>
@@ -90,7 +96,7 @@
               <h4>edureka! <img class="badge" src="https://mwmstudioz.com/wp-content/uploads/2017/08/icontick-300x300.png" ></h4>
               <h4>821k subscribers</h4>
             </li>
-            <li>
+            <li class="recommendationVid">
               <a target="_blank" href="https://www.youtube.com/watch?v=EuPSibuIKIg&t=1s">
                 <img class="thumbnail" src="https://i.udemycdn.com/course/750x422/1278360_beb4_3.jpg" >
               </a>
@@ -98,7 +104,7 @@
               <h4>Clément Mihailescu <img class="badge" src="https://mwmstudioz.com/wp-content/uploads/2017/08/icontick-300x300.png" ></h4>
               <h4>104k subscribers</h4>
             </li>
-            <li>
+            <li class="recommendationVid">
               <a target="_blank" href="https://www.youtube.com/watch?v=7iwgyzX-76g">
                 <img class="thumbnail" src="https://i.kinja-img.com/gawker-media/image/upload/c_scale,fl_progressive,q_80,w_800/il8csfv1pwgabnz2g8n0.jpg">
               </a>
