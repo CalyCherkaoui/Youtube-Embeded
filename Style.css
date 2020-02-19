@@ -1,0 +1,320 @@
+/* Styling Youtube-clone page Isaac/Houda */
+
+/* ---------------------------------Styling main grid container ------------------------------------*/
+
+body {
+  display: grid;
+    grid-template-rows: auto;
+    /*padding: 10px;*/
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*styling the icons in all sections*/
+
+.icons {
+  font-size: 25px;
+  width: 100%;
+  margin: 0;
+  padding: 1em;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+
+/* ---------------------------------Styling Navigation Bar at the top ------------------------------------*/
+
+.text-holder {
+  width: 300px;
+  border-radius: 0%;
+  border: solid 1px rgb(128,128,128, 0.6);
+  height: 2rem;
+  
+}
+
+
+
+/* To resize the Reserche box for desktop displaying */
+@media (min-width: 900px) {
+  .text-holder {
+    width: 500px;
+
+  }
+  }
+
+/* Flex container for the top navigation bar*/
+#topBar {
+    list-style-type: none;
+    margin: 0.5rem;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 2;
+    flex-direction: row;
+    align-items: center;
+    height: 3rem;
+    
+    }
+/* Fixing the navigation bar in the top */
+    .nav {
+     
+      width: 100%;
+      position: fixed;
+      top: 0;
+      background-color: white;      
+      }
+
+/* Flex items for the top navigation bar*/
+#flex1 {
+  background-color: white;
+  order: 1;
+  width: 8rem;
+  height: 3rem;
+  margin-left: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#flex1> img {
+  object-fit: cover;
+}
+
+#flex1>button {
+  height: 2rem;
+  border-radius: 0;
+  border-style: none;
+  background-color: rgb(128,128,128, 0.6) ;
+}
+
+#flex2 {
+  background-color:white;
+  order: 2;
+}
+#flex3 {
+  background-color: white;
+  order: 3;
+  width: 12%;
+  box-sizing: border-box;
+  margin-right: 3rem;
+}
+
+/* Flex container for the icons in the navBar*/
+.smallgrid {
+  display: flex;
+    width: 100%;
+}
+
+/*------------------------------------ The videos grid container--------------------------------------------------------*/
+
+
+.youtube-page {
+  box-sizing: border-box;
+  margin: 12px;
+}
+
+
+section {
+  display: grid;
+  grid-template-columns: auto auto;
+  padding: 10px;
+}
+
+/*the container of the video section*/
+
+.videoSection {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  width: 100%;
+  margin: 12px;
+}
+
+
+/* Styling the embeded video*/
+
+
+.video-player {
+  height: 50%;
+  margin-top: 5%;
+  background: black;
+}
+
+iframe {
+  width: 100%;
+  height: 100%;
+}
+
+/* Styling the video description and all data about the video*/
+.video-description {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+
+}
+
+ #subscriptionButton {
+   background-color:#FF0000 ;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 16px;
+   color: white;
+   font-weight: bold;
+   border: none;
+   padding: 10px 20px;
+
+ }
+/*styling the like section*/
+
+#likeSection{
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  justify-items: baseline;
+  align-items: flex-end;
+  width: 100%;
+  height: 100%;
+}
+
+.videoShare>#likeSection>.thumsUpDown {
+  border-bottom: solid 1px rgb(44, 43, 43);
+
+}
+
+.videoShare {
+  color: gray;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.videoShare>#likeSection>div {
+padding : 12px;
+margin-inline: 10px;
+}
+
+i {
+  margin-inline: 10px;
+}
+
+/*
+ #likeSection {
+   padding: 2em 1em;
+ }
+
+ #likeSection > i {
+   margin-right: 10px;
+ }
+
+ #likeSection > span {
+   margin-right: 10px;
+ }
+ #likeSection > fa-ellipsis-h {
+   margin-left: 10px;
+ }
+
+*/
+
+ .logo-avatar {
+   width: 50px;
+   height: 50px;
+    border-radius: 50%;
+    margin-right: 2rem;
+ }
+
+
+.videoViews {
+  display: grid;
+  grid-template-columns: auto auto;
+  border-bottom: solid 1px #8a8a8a;
+}
+
+.videoData, .videoLikes {
+  display: grid;
+  grid-template-rows: auto auto;
+}
+
+.videoLikes {
+  justify-content: flex-end;
+}
+
+.videoTitle {
+  color: black;
+  font-size: 1rem;
+}
+
+
+.descriptive{
+  color: grey;
+
+}
+.channelName {
+  color: black;
+
+}
+
+
+/* Styling Recommended videos section*/
+
+.video-recommendation {
+  display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    margin: 8px;
+    margin-top: 1rem;
+    width: 25rem;
+}
+
+.thumbnail {
+  width : 100%;
+
+ }
+
+ .badge{
+   width: 10px;
+   height: auto;
+ }
+
+ .videoList{
+   display: flex;
+   flex-direction: column;
+   list-style-type: none;
+ }
+
+ #linkButton {
+
+  color: white;
+  text-decoration: none;
+}
+
+.videoList>.recommendationVid {
+
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  justify-content: flex-start;
+
+}
+
+.recommendationVid> a, h3, h4 {
+  box-sizing: border-box;
+  margin: 3px;
+  width : 100%;
+}
+
+.recommendationVid> h4 {
+  color: #8a8a8a;
+  text-emphasis: none;
+}
+
+.logo {
+  width: 100%;
+
+ }
+
+ .video-recommendation> .autoplay {
+   display: flex;
+   flex-direction: row;
+   align-items: baseline;
+
+
+ }
