@@ -1,7 +1,3 @@
-/* Styling Youtube-clone page Isaac/Houda */
-
-/* ---------------------------------Styling main grid container ------------------------------------*/
-
 body {
   display: grid;
     grid-template-rows: auto;
@@ -9,8 +5,6 @@ body {
     margin: 0;
     font-family: 'Montserrat', sans-serif;
 }
-
-/*styling the icons in all sections*/
 
 .icons {
   font-size: 25px;
@@ -20,7 +14,6 @@ body {
   display: flex;
   justify-content: space-between;
 }
-/* ---------------------------------Styling Navigation Bar at the top ------------------------------------*/
 
 .text-holder {
   width: 300px;
@@ -29,16 +22,6 @@ body {
   height: 2rem;
 }
 
-
-
-/* To resize the Reserche box for desktop displaying */
-@media (min-width: 900px) {
-  .text-holder {
-    width: 500px;
-  }
-  }
-
-/* Flex container for the top navigation bar*/
 #topBar {
     list-style-type: none;
     margin: 0.5rem;
@@ -50,7 +33,7 @@ body {
     align-items: center;
     height: 3rem;
     }
-/* Fixing the navigation bar in the top */
+
     .nav {
       width: 100%;
       position: fixed;
@@ -58,7 +41,6 @@ body {
       background-color: white;
       }
 
-/* Flex items for the top navigation bar*/
 #flex1 {
   background-color: white;
   order: 1;
@@ -97,28 +79,21 @@ body {
   margin-right: 3rem;
 }
 
-/* Flex container for the icons in the navBar*/
 .smallgrid {
   display: flex;
     width: 100%;
 }
-
-/*------------------------------------ The videos grid container--------------------------------------------------------*/
-
 
 .youtube-page {
   box-sizing: border-box;
   margin: 12px;
 }
 
-
 section {
   display: grid;
   grid-template-columns: auto auto;
   padding: 10px;
 }
-
-/*the container of the video section*/
 
 .videoSection {
   display: flex;
@@ -127,10 +102,6 @@ section {
   width: 100%;
   margin: 12px;
 }
-
-
-/* Styling the embeded video*/
-
 
 .video-player {
   height: 50%;
@@ -143,7 +114,6 @@ iframe {
   height: 100%;
 }
 
-/* Styling the video description and all data about the video*/
 .video-description {
   display: grid;
   grid-template-columns: auto auto auto;
@@ -163,7 +133,6 @@ iframe {
  .subscriptionButtonStyle {
    margin-top: 0.5rem
  }
-/*styling the like section*/
 
 #likeSection{
   display: flex;
@@ -194,31 +163,12 @@ i {
   margin-inline: 10px;
 }
 
-/*
- #likeSection {
-   padding: 2em 1em;
- }
-
- #likeSection > i {
-   margin-right: 10px;
- }
-
- #likeSection > span {
-   margin-right: 10px;
- }
- #likeSection > fa-ellipsis-h {
-   margin-left: 10px;
- }
-
-*/
-
  .logo-avatar {
    width: 50px;
    height: 50px;
     border-radius: 50%;
     margin-right: 2rem;
  }
-
 
 .videoViews {
   display: grid;
@@ -238,18 +188,30 @@ i {
 .videoTitle {
   color: black;
   font-size: 1rem;
+  margin: 0;
+  margin-top: 1rem;
 }
 
+.UpNext {
+  margin-top: 2.6rem;
+  margin-left: 12px;
+}
+
+.fa-toggle-on{
+  font-size:25px;color:rgb(0, 162, 255);
+}
+
+.marginExtra {
+  margin-bottom: 1rem;
+}
 
 .descriptive{
   color: grey;
 }
+
 .channelName {
   color: black;
 }
-
-
-/* Styling Recommended videos section*/
 
 .video-recommendation {
   display: flex;
@@ -258,6 +220,10 @@ i {
     margin: 8px;
     margin-top: 1rem;
     width: 25rem;
+}
+
+.borderFirstRecommendation{
+  border-bottom: solid 1px #8a8a8a; margin-top: 5px; margin-bottom: 5px;
 }
 
 .thumbnail {
@@ -302,6 +268,7 @@ i {
   width: 100%;
   padding: 1px;
  }
+
  .search-btn {
    margin-right: auto; width: 15%;
  }
@@ -311,3 +278,9 @@ i {
    flex-direction: row;
    align-items: baseline;
  }
+
+ @media (min-width: 900px) {
+   .text-holder {
+     width: 500px;
+   }
+   }
