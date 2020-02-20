@@ -277,6 +277,14 @@ i {
    width: 15%;
  }
 
+ .savebtn {
+   margin-right: 10px;
+ }
+
+ .threebtn {
+   margin-left: 10px;
+ }
+
  .video-recommendation> .autoplay {
    display: flex;
    flex-direction: row;
