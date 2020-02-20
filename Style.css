@@ -4,7 +4,7 @@ body {
      margin: 0;
      font-family: 'Montserrat', sans-serif;
 }
- .icons {
+.icons {
      font-size: 25px;
      width: 100%;
      margin: 0;
@@ -12,13 +12,13 @@ body {
      display: flex;
      justify-content: space-between;
 }
- .text-holder {
+.text-holder {
      width: 300px;
      border-radius: 0%;
      border: solid 1px rgb(128, 128, 128, 0.6);
      height: 2rem;
 }
- #topBar {
+#topBar {
      list-style-type: none;
      margin: 0.5rem;
      padding: 0;
@@ -29,13 +29,13 @@ body {
      align-items: center;
      height: 3rem;
 }
- .nav {
+.nav {
      width: 100%;
      position: fixed;
      top: 0;
      background-color: white;
 }
- #flex1 {
+#flex1 {
      background-color: white;
      order: 1;
      width: 8rem;
@@ -45,65 +45,65 @@ body {
      justify-content: space-between;
      align-items: center;
 }
- #flex1>img {
+#flex1>img {
      object-fit: cover;
 }
- #flex1>button {
+#flex1>button {
      height: 2rem;
      border-radius: 0;
      border-style: none;
      background-color: rgb(128, 128, 128, 0.6);
 }
- .fa-align-justify {
+.fa-align-justify {
      padding: 1px;
      font-size: 25px;
 }
- #flex2 {
+#flex2 {
      background-color: white;
      order: 2;
 }
- #flex3 {
+#flex3 {
      background-color: white;
      order: 3;
      width: 12%;
      box-sizing: border-box;
      margin-right: 3rem;
 }
- .smallgrid {
+.smallgrid {
      display: flex;
      width: 100%;
 }
- .youtube-page {
+.youtube-page {
      box-sizing: border-box;
      margin: 12px;
 }
- section {
+section {
      display: grid;
      grid-template-columns: auto auto;
      padding: 10px;
 }
- .videoSection {
+.videoSection {
      display: flex;
      flex-direction: column;
      box-sizing: border-box;
      width: 100%;
      margin: 12px;
 }
- .video-player {
+.video-player {
      height: 50%;
      margin-top: 5%;
      background: black;
 }
- iframe {
+iframe {
      width: 100%;
      height: 100%;
 }
- .video-description {
+.video-description {
      display: grid;
      grid-template-columns: auto auto auto;
      padding: 10px;
 }
- .subscriptionButton {
+.subscriptionButton {
      background-color: #f00;
      font-family: Arial, Helvetica, sans-serif;
      font-size: 16px;
@@ -112,10 +112,10 @@ body {
      border: none;
      padding: 10px 20px;
 }
- .subscriptionButtonStyle {
+.subscriptionButtonStyle {
      margin-top: 0.5rem;
 }
- #likeSection {
+#likeSection {
      display: flex;
      flex-direction: row;
      box-sizing: border-box;
@@ -124,63 +124,63 @@ body {
      width: 100%;
      height: 100%;
 }
- .videoShare>#likeSection>.thumsUpDown {
+.videoShare>#likeSection>.thumsUpDown {
      border-bottom: solid 1px rgb(44, 43, 43);
 }
- .videoShare {
+.videoShare {
      color: gray;
      box-sizing: border-box;
      margin: 0;
 }
- .videoShare>#likeSection>div {
+.videoShare>#likeSection>div {
      padding: 12px;
      margin-inline: 10px;
 }
- i {
+i {
      margin-inline: 10px;
 }
- .logo-avatar {
+.logo-avatar {
      width: 50px;
      height: 50px;
      border-radius: 50%;
      margin-right: 2rem;
 }
- .videoViews {
+.videoViews {
      display: grid;
      grid-template-columns: auto auto;
      border-bottom: solid 1px #8a8a8a;
 }
- .videoData, .videoLikes {
+.videoData, .videoLikes {
      display: grid;
      grid-template-rows: auto auto;
 }
- .videoLikes {
+.videoLikes {
      justify-content: flex-end;
 }
- .videoTitle {
+.videoTitle {
      color: black;
      font-size: 1rem;
      margin: 0;
      margin-top: 1rem;
 }
- .UpNext {
+.UpNext {
      margin-top: 2.6rem;
      margin-left: 12px;
 }
- .fa-toggle-on {
+.fa-toggle-on {
      font-size: 25px;
      color: rgb(0, 162, 255);
 }
- .marginExtra {
+.marginExtra {
      margin-bottom: 1rem;
 }
- .descriptive {
+.descriptive {
      color: grey;
 }
- .channelName {
+.channelName {
      color: black;
 }
- .video-recommendation {
+.video-recommendation {
      display: flex;
      flex-direction: column;
      box-sizing: border-box;
@@ -188,62 +188,62 @@ body {
      margin-top: 1rem;
      width: 25rem;
 }
- .borderFirstRecommendation {
+.borderFirstRecommendation {
      border-bottom: solid 1px #8a8a8a;
      margin-top: 5px;
      margin-bottom: 5px;
 }
- .thumbnail {
+.thumbnail {
      width: 100%;
 }
- .badge {
+.badge {
      width: 10px;
      height: auto;
 }
- .videoList {
+.videoList {
      display: flex;
      flex-direction: column;
      list-style-type: none;
 }
- #linkButton {
+#linkButton {
      color: white;
      text-decoration: none;
 }
- .videoList>.recommendationVid {
+.videoList>.recommendationVid {
      display: flex;
      flex-direction: column;
      box-sizing: border-box;
      justify-content: flex-start;
 }
- .recommendationVid>a, h3, h4 {
+.recommendationVid>a, h3, h4 {
      box-sizing: border-box;
      margin: 3px;
      width: 100%;
 }
- .recommendationVid>h4 {
+.recommendationVid>h4 {
      color: #8a8a8a;
      text-emphasis: none;
 }
- .logo {
+.logo {
      width: 100%;
      padding: 1px;
 }
- .search-btn {
+.search-btn {
      margin-right: auto;
      width: 15%;
 }
- .savebtn {
+.savebtn {
      margin-right: 10px;
 }
- .threebtn {
+.threebtn {
      margin-left: 10px;
 }
- .video-recommendation>.autoplay {
+.video-recommendation>.autoplay {
      display: flex;
      flex-direction: row;
      align-items: baseline;
 }
- @media (min-width: 900px) {
+@media (min-width: 900px) {
      .text-holder {
          width: 500px;
     }
