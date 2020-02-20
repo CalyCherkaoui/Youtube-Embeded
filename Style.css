@@ -121,7 +121,7 @@ iframe {
 }
 
  .subscriptionButton {
-   background-color:#FF0000 ;
+   background-color: #FF0000;
    font-family: Arial, Helvetica, sans-serif;
    font-size: 16px;
    color: white;
@@ -131,8 +131,8 @@ iframe {
  }
 
  .subscriptionButtonStyle {
-   margin-top: 0.5rem
- }
+   margin-top: 0.5rem;
+  }
 
 #likeSection{
   display: flex;
@@ -197,8 +197,9 @@ i {
   margin-left: 12px;
 }
 
-.fa-toggle-on{
-  font-size:25px;color:rgb(0, 162, 255);
+.fa-toggle-on {
+  font-size: 25px;
+  color: rgb(0, 162, 255);
 }
 
 .marginExtra {
@@ -222,8 +223,10 @@ i {
     width: 25rem;
 }
 
-.borderFirstRecommendation{
-  border-bottom: solid 1px #8a8a8a; margin-top: 5px; margin-bottom: 5px;
+.borderFirstRecommendation {
+  border-bottom: solid 1px #8a8a8a;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
 .thumbnail {
@@ -267,10 +270,11 @@ i {
 .logo {
   width: 100%;
   padding: 1px;
- }
+}
 
  .search-btn {
-   margin-right: auto; width: 15%;
+   margin-right: auto;
+   width: 15%;
  }
 
  .video-recommendation> .autoplay {
@@ -282,5 +286,5 @@ i {
  @media (min-width: 900px) {
    .text-holder {
      width: 500px;
-   }
-   }
+    }
+  }
