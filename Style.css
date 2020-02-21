@@ -167,6 +167,12 @@ iframe {
   margin: 0;
 }
 
+.recommendationVid > div {
+  box-sizing: border-box;
+  margin: 3px;
+  width: 100%;
+}
+
 .videoShare > #likeSection > div {
   padding: 12px;
   margin-inline: 10px;
@@ -274,26 +280,20 @@ i {
   align-items: center;
 }
 
-.recommendationVid > div {
-  box-sizing: border-box;
-  margin: 3px;
-  width: 100%;
-}
-
 .recommendation-side-texts > h3 {
   padding: 0 !important;
   margin: 0 0 4px 0 !important;
   font-size: 14;
   font-weight: 800;
   line-height: 14px;
-  }
+}
 
 .recommendation-side-texts > h4 {
   padding: 0 !important;
   margin: 0 !important;
   font-size: 12px;
   font-weight: 400;
-  color:rgb(96, 96, 96);
+  color: rgb(96, 96, 96);
 }
 
 .logo {
