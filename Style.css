@@ -257,7 +257,13 @@ i {
   justify-content: flex-start;
 }
 
-.recommendationVid > a, h3, h4 {
+.recommendationVid > a {
+  box-sizing: border-box;
+  margin: 3px;
+  width: 100%;
+}
+
+.recommendationVid > h3 {
   box-sizing: border-box;
   margin: 3px;
   width: 100%;
@@ -266,6 +272,9 @@ i {
 .recommendationVid > h4 {
   color: #8a8a8a;
   text-emphasis: none;
+  box-sizing: border-box;
+  margin: 3px;
+  width: 100%;
 }
 
 .logo {
