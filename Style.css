@@ -86,7 +86,6 @@ body {
 }
 
 .youtube-page {
-  margin: 56px;
   max-width: 1750px;
   min-width: 1012px;
   padding: 0;
@@ -108,7 +107,7 @@ section {
   box-sizing: border-box;
   max-width: 1148px;
   min-width: 640px;
-  margin: 24px;
+  margin: 16px;
   padding-top: 24px;
   padding-right: 24px;
   height: auto;
@@ -236,7 +235,7 @@ i {
   padding-top: 24px;
   min-width: 300px;
   max-width: 340px;
-  margin-top: 70px;
+  margin-top: 15px;
   font-size: 10px;
 }
 
@@ -259,6 +258,7 @@ i {
   display: flex;
   flex-direction: column;
   list-style-type: none;
+  padding: 0;
 }
 
 #linkButton {
@@ -296,22 +296,6 @@ i {
   color:rgb(96, 96, 96);
 }
 
-.recommendationVid > h3 {
-  padding: 0 !important;
-  margin: 0 0 4px 0 !important;
-  font-size: 14;
-  font-weight: 800;
-  line-height: 14px;
-}
-
-.recommendationVid > h4 {
-  color: #8a8a8a;
-  text-emphasis: none;
-  box-sizing: border-box;
-  margin: 3px;
-  width: 100%;
-}
-
 .logo {
   width: 100%;
   padding: 1px;
@@ -334,6 +318,7 @@ i {
   display: flex;
   flex-direction: row;
   align-items: baseline;
+  justify-content: space-between;
 }
 
 @media (min-width: 900px) {
