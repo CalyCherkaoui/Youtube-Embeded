@@ -6,13 +6,14 @@ Building an HTML document that matches the appearance of Youtube.
 
 ## Usage
 ```Git
-mkdir YoutubeProject
 git clone https://github.com/CalyCherkaoui/Youtube-Embeded.git
 cd Youtube-Embeded
+git checkout FeatureB-css
+firefox .
 ```
 
 ## Demo
-https://rawcdn.githack.com/CalyCherkaoui/Youtube-Embeded/2f36b8d11fe7b0907850cd48e7103b735817b590/index.html
+https://rawcdn.githack.com/CalyCherkaoui/Youtube-Embeded/371d08d8ad00270eda2ae5303e1378a304c4f34e/index.html
 
 ## Authors
 👩 **Houda Cherkaoui**
